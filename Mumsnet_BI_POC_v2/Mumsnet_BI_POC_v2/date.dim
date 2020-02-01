@@ -1,0 +1,337 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="c26439fc-ae68-4cf4-a745-7a98c2d2476d" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>date</ID>
+  <Name>date</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-4253" scrolltop="-3889" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="12012" y="12779" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="order" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3466" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008a0d000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_order" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-4253</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3889</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="126">
+            <Shape Id="o_number" Expanded="true">
+              <Attributes>
+                <Attribute Id="o_number" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="o_create_date" Expanded="true">
+              <Attributes>
+                <Attribute Id="o_create_date" />
+              </Attributes>
+              <Position x="182" y="20" />
+            </Shape>
+            <Shape Id="o_day" Expanded="true">
+              <Attributes>
+                <Attribute Id="o_day" />
+              </Attributes>
+              <Position x="345" y="20" />
+            </Shape>
+            <Shape Id="o_month" Expanded="true">
+              <Attributes>
+                <Attribute Id="o_month" />
+              </Attributes>
+              <Position x="507" y="20" />
+            </Shape>
+            <Shape Id="o_quarter" Expanded="true">
+              <Attributes>
+                <Attribute Id="o_quarter" />
+              </Attributes>
+              <Position x="670" y="20" />
+            </Shape>
+            <Shape Id="o_year" Expanded="false">
+              <Attributes>
+                <Attribute Id="o_year" />
+              </Attributes>
+              <Position x="832" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="d8c9069f-4e70-4e9b-8d67-593e4564147c">
+    <DataSourceViewID>Mumsnet</DataSourceViewID>
+  </Source>
+  <ErrorConfiguration dwd:design-time-name="b8f63c52-5722-4898-8a96-91d7b76804b0">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="a6495e13-e98f-430b-8c4d-2a84275d1d12">
+      <ID>o_number</ID>
+      <Name>o_number</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3d62a8b6-1a1e-411e-ac90-1f1d609633ad">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a9919e48-a0f4-4670-8143-57a0d1d72ac5">
+            <TableID>dbo_order</TableID>
+            <ColumnID>o_number</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="a672b698-e156-434e-90bd-062e2792e899">
+          <AttributeID>o_create_date</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>o_create_date</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7e351412-e5c3-4dd9-abc0-82339c895a60">
+      <ID>o_create_date</ID>
+      <Name>o_create_date</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d3f0a782-7803-43c4-9bb0-27bf1585277d">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c0cb22ef-609f-47c5-abfc-08262e66397e">
+            <TableID>dbo_order</TableID>
+            <ColumnID>o_create_date</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="6a5c38fa-21a6-44b1-83b7-84e4632597b9">
+          <AttributeID>o_day</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>o_day</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="73d082a2-7bdb-4337-98e9-4ca935a81922">
+      <ID>o_day</ID>
+      <Name>o_day</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="81d97bfc-6e77-49f5-a979-6103b6d92621">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4773a189-733d-408e-9266-fffae1c2e8a8">
+            <TableID>dbo_order</TableID>
+            <ColumnID>o_create_date</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="4bb3f1ac-9be9-4c6d-bdf5-f717fa368ab4">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="003ddfeb-07d7-48a5-9f14-a75dcadce0c2">
+            <TableID>dbo_order</TableID>
+            <ColumnID>o_day</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="bd58373b-60cf-46b7-be4c-d9b452c3a2ad">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="40726f6d-e62b-4b1a-85cc-c3a0736f7878">
+          <TableID>dbo_order</TableID>
+          <ColumnID>o_day</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="19d0d73b-fa2a-4992-8b97-7443af90f510">
+          <AttributeID>o_month</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>o_month</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a63d546e-e1c7-4065-af39-be73c9e56f72">
+      <ID>o_month</ID>
+      <Name>o_month</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="2a9cc59b-e429-4155-b0a0-e04d41da4695">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="dd7118c9-000a-415d-9854-6b0e310d7a2a">
+            <TableID>dbo_order</TableID>
+            <ColumnID>o_create_date</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="35d58dda-51a7-4f66-9c93-f20d55022f2c">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7ef84a87-d5f1-487b-a35d-c4224a06b7b8">
+            <TableID>dbo_order</TableID>
+            <ColumnID>o_month</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="486970d5-2e92-453e-9bc5-129746559097">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="753588c0-5cb8-4579-935f-a1ac451ea78f">
+          <TableID>dbo_order</TableID>
+          <ColumnID>o_month</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="2da0d9b4-b611-4af6-b111-aa0510223b68">
+          <AttributeID>o_quarter</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>o_quarter</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="78166eb6-8f94-4f56-b574-e1455c47f9a6">
+      <ID>o_quarter</ID>
+      <Name>o_quarter</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="522704b2-d2e8-48ed-8063-d32e5a1638e3">
+          <DataType>Date</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="543db9de-f7a2-47c2-9902-670a6b1852dc">
+            <TableID>dbo_order</TableID>
+            <ColumnID>o_create_date</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="116babf9-8c6a-4aae-bf6c-51e2d3bdbd58">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b0f5d2e4-a194-40b2-bb0f-162d5ffdd759">
+            <TableID>dbo_order</TableID>
+            <ColumnID>o_quarter</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="36ddd41b-b3ca-4d4d-a7fc-1fb07814732b">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="d5c3410a-b175-4cd7-8016-9e7600426648">
+          <TableID>dbo_order</TableID>
+          <ColumnID>o_quarter</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="021be125-c038-491a-9cb8-2f4773e0b7e4">
+          <AttributeID>o_year</AttributeID>
+          <RelationshipType>Rigid</RelationshipType>
+          <Name>o_year</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="12dc830c-ed3c-43ec-ad14-46f8e9f793ed">
+      <ID>o_year</ID>
+      <Name>o_year</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="807b2a43-03f2-415b-99aa-97da1976d623">
+          <DataType>Integer</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="4bac97ee-be41-46f4-91ce-0f7b6baeaf04">
+            <TableID>dbo_order</TableID>
+            <ColumnID>o_year</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <OrderBy>Key</OrderBy>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <Hierarchies>
+    <Hierarchy dwd:design-time-name="e3390db0-5231-4fd5-a1ee-a41beffeef76">
+      <ID>Hierarchy</ID>
+      <Name>date</Name>
+      <Levels>
+        <Level dwd:design-time-name="94d3da06-11c9-456c-beac-ae4f0476f8ad">
+          <ID>o_year</ID>
+          <Name>o_year</Name>
+          <SourceAttributeID>o_year</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="13238a4f-7907-4455-b08c-488c6d2d7cea">
+          <ID>o_quarter</ID>
+          <Name>o_quarter</Name>
+          <SourceAttributeID>o_quarter</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="0af20b96-5d69-4e9e-a070-273afde5c134">
+          <ID>o_month</ID>
+          <Name>o_month</Name>
+          <SourceAttributeID>o_month</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="b1c0a3fe-5254-4218-bc14-f65c8e49e00e">
+          <ID>o_day</ID>
+          <Name>o_day</Name>
+          <SourceAttributeID>o_day</SourceAttributeID>
+        </Level>
+      </Levels>
+    </Hierarchy>
+  </Hierarchies>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>
